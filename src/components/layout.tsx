@@ -30,7 +30,7 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <div className="relative mx-auto max-w-360">
+    <div className="relative mx-auto min-h-screen max-w-360">
       <Illustration className="hidden md:absolute md:-top-48 md:-left-25 md:block md:bg-orange-500/15 lg:-left-12.5" />
       <Illustration className="absolute -top-38 -right-48 bg-cyan-400/[0.2825] md:top-26 md:right-22 lg:right-34.5" />
       <Illustration className="absolute top-30 -right-48 bg-orange-400/[0.1532] md:top-94 md:right-22 lg:right-34.5" />
