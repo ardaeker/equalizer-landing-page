@@ -46,10 +46,10 @@
 
 html,
 body {
-  height: 100%;
   overflow-x: hidden;
 }
 
 body {
+  min-height: 100vh;
   background-color: var(--color-cream-100);
 }
